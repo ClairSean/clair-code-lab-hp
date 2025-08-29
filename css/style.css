@@ -1,0 +1,84 @@
+html,
+body {
+  width: 768px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #020617;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 1rem;
+}
+
+header {
+  text-align: center;
+}
+
+#theme-toggle {
+  display: inline-block;
+  background-color: transparent;
+  margin: 1rem;
+  border: 1px solid white;
+  border-radius: 15%;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+#theme-toggle-text {
+  display: none;
+}
+
+nav {
+  float: right;
+  border-bottom: 2px solid white;
+}
+
+#nav-list {
+  margin: 1rem;
+  padding: 0;
+}
+
+#nav-list li {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+#nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#nav-list li a:hover {
+  text-decoration: underline;
+}
+
+main article h2 {
+  font-size: 1.8rem;
+}
+
+main article p {
+  font-size: 1rem;
+}
+
+footer {
+  border-top: 1px solid white;
+}
+
+footer p {
+  text-align: center;
+}
+/*增加媒体查询，屏幕宽度小于768px时，body宽度100%*/
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+  }
+}
