@@ -1,5 +1,9 @@
 # Clair's Code Lab Home Page | 羲捷的代码实验室
 
+## 访问地址
+
+该项目部署在 github.io 上，访问地址为：https://clairsean.github.io/clair-code-lab-hp/
+
 ## 开发笔记
 
 - 20250829：完成主页基本布局，包括主页的页眉、导航栏、明暗模式按钮、关于我文章、页脚。
