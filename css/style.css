@@ -64,8 +64,29 @@ main article h2 {
   font-size: 1.8rem;
 }
 
+main article h3 {
+  font-size: 1.6rem;
+}
+
 main article p {
   font-size: 1rem;
+}
+
+main article a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main article a:hover {
+  color: lightsalmon;
+}
+
+article .wechat-qr {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
 }
 
 footer {
