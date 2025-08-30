@@ -60,6 +60,10 @@ nav {
   text-decoration: underline;
 }
 
+main {
+  clear: both;
+}
+
 main article h2 {
   font-size: 1.8rem;
 }
